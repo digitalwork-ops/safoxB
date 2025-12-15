@@ -89,8 +89,8 @@ app.post('/api/send-contact', async (req, res) => {
     const html = getEmailTemplate(name, phone, email, message);
 
     const mailOptions = {
-      from: `"HCI ONE Contact" <digitalworkshop90@gmail.com>`,
-      to: 'digitalworkshop90@gmail.com',
+      from: `"Safox Contact" <digitalworkshop90@gmail.com>`,
+      to: 'digitalworkshop90@gmail.com , safoxind@gmail.com',
       subject: `New Contact from ${name}`,
       html,
       text: `
