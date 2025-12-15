@@ -90,7 +90,7 @@ app.post('/api/send-contact', async (req, res) => {
 
     const mailOptions = {
       from: `"Safox Contact" <digitalworkshop90@gmail.com>`,
-      to: 'digitalworkshop90@gmail.com , safoxind@gmail.com',
+      to: 'digitalworkshop90@gmail.com',
       subject: `New Contact from ${name}`,
       html,
       text: `
